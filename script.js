@@ -1,6 +1,6 @@
-let primo_button=document.getElementById('primo_button');
-let secondo_button=document.getElementById('secondo_button');
-let terzo_button=document.getElementById('terzo_button');
+let primo_button=document.querySelector('.primo_button');
+let secondo_button=document.querySelector('.secondo_button');
+let terzo_button=document.querySelector('.terzo_button');
 let paragrafi=document.querySelectorAll('p');
 
 primo_button.addEventListener('click', ()=>{
